@@ -101,9 +101,9 @@ to ensure maximum client compatibility.
 
 ```
 INFO  UserTunePresencePlugin: зарегистрирован интерцептор.
-INFO  UserTunePresencePlugin: sigma@example.com публикует tune, рассылаем контактам
+INFO  UserTunePresencePlugin: jid@example.com публикует tune, рассылаем контактам
 INFO  UserTunePresencePlugin: tune-нотификация отправлена 5 ресурсам
-INFO  UserTunePresencePlugin: sigma@example.com офлайн, tune очищен
+INFO  UserTunePresencePlugin: jid@example.com офлайн, tune очищен
 ```
 
 To enable DEBUG level: `Admin Console → Server → Server Settings → Log Settings`.
