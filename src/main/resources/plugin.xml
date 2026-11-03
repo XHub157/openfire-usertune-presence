@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <class>org.example.openfire.plugin.UserTunePresencePlugin</class>
+
+    <name>User Tune Presence</name>
+    <description>
+        Broadcasts XEP-0118 User Tune PEP events to roster contacts,
+        bypassing Openfire's CAPS check. Implements ejabberd-compatible
+        send_last_published_item behavior: contacts receive the current
+        track immediately upon coming online.
+    </description>
+
+    <author>XHub157</author>
+    <version>1.0.0</version>
+    <date>11/02/2026</date>
+
+    <url>https://github.com/XHub157/openfire-usertune-presence</url>
+    <changelogURL>https://github.com/XHub157/openfire-usertune-presence/releases</changelogURL>
+
+    <!--
+        Минимальная версия Openfire.
+        4.9.x — Java 11+, 5.x — Java 17+.
+        Плагин собирается под Java 11 и совместим с обеими ветками.
+    -->
+    <minServerVersion>4.6.0</minServerVersion>
+
+    <licenseType>gpl</licenseType>
+</plugin>
